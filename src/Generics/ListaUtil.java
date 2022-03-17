@@ -13,6 +13,10 @@ public class ListaUtil {
         List<String> strings = Arrays.asList("A", "B", "C");
         List<Integer> integers = Arrays.asList(1, 2, 3);
 
+        if(integers.contains(1)) {
+            System.out.println(Boolean.TRUE);
+        }
+
         System.out.println(ListaUtil.getUltimo(strings));
         System.out.println(ListaUtil.getUltimo(integers));
     }
