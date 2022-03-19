@@ -1,6 +1,6 @@
 package Generics;
 
-public class CaixaInt extends CaixaGenerics<Integer>{
+public class CaixaInt extends CaixaGenerics<Integer> {
 
     public static void main(String[] args) {
         CaixaInt caixaInt = new CaixaInt();

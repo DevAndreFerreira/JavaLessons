@@ -1,6 +1,6 @@
 package Generics;
 
-public class CaixaNumero<N extends Number> extends CaixaGenerics<N>{
+public class CaixaNumero<N extends Number> extends CaixaGenerics<N> {
 
     public static void main(String[] args) {
         CaixaNumero<Double> caixaD = new CaixaNumero<>();
