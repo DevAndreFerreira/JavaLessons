@@ -1,5 +1,7 @@
 package Lambdas;
 
+import java.util.function.BinaryOperator;
+
 public class Main {
     public static void main(String[] args) {
         Calculo calculo = new Soma();
@@ -13,5 +15,11 @@ public class Main {
 
         calc = (x, y) -> x * y;
         System.out.println("Multi: " + calc.executar(1,3));
+        System.out.println(calc.teste());
+        System.out.println(Calculo.testeStatic());
+
+        BinaryOperator<Double> binaryOperator = (x,y) -> { return x*y; };
+
+        System.out.println("Binary Operator: " + binaryOperator.apply(2.0, 2.0));
     }
 }
