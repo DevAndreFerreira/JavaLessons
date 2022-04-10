@@ -1,0 +1,10 @@
+package Lambdas;
+
+public class Desafio {
+
+    public static void main(String[] args) {
+        Produto p = new Produto("iPad", 3235.89, 0.13);
+
+    }
+
+}
